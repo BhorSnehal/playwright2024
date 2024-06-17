@@ -26,3 +26,7 @@ test(" veirfy the login functionality with invalid credentials",async ({page})=>
     await expect(page.locator('[class="oxd-text oxd-text--p oxd-alert-content-text"]')).toHaveText("Invalid credentials")
 
 })
+test("test for the github",async({page})=>{
+
+
+})
